@@ -1,0 +1,98 @@
+html {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'Comforta';
+    font-weight: normal;
+    src: url('../font/Comfortaa-Regular.ttf');
+}
+
+/* Первая страница */
+
+.pagecolor {
+    background: rgb(173, 255, 173);
+}
+.page {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+}
+.main {
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainblock {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.logostyle {
+    width: 170px;
+    height: 100px;
+}
+.headerinfo {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.mainimagestyle {
+    width: 500px;
+    height: 600px;
+}
+.mainblocktext {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+}
+.textstyle1 {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Comforta';
+    color: rgb(22, 95, 0);
+    margin: 0px;
+}
+.textstyle2 {
+    font-size: 32px;
+    font-family: 'Comforta';
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+/* Вторая страница */
+
+.pagecolor2 {
+    background: white;
+}
+
+/* Третья страница */
+
+.pagecolor3 {
+    background: rgb(0, 10, 0);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footerinfo {
+    display: flex;
+    flex-direction: column;
+}
+.textstyle3 {
+    font-size: 16px;
+    font-family: 'Comforta';
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    margin-bottom: 10px;
+}
